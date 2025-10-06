@@ -6,7 +6,10 @@ Pick Country then City then Weather.
 - Node.js
 
 # Configure
-Set API Url. For local, included in .env.local already (https://localhost:7297/api).
+Set API Url. For local, add .env.local file on root and add the following content:
+```
+VITE_API_URL=https://localhost:7297/api
+```
 
 # Run
 ```
